@@ -1,0 +1,16 @@
+{
+    "name": "Ahmed Salah",
+    "title": "Computer Engineer | ML/AI Specialist | Full-Stack Developer",
+    "resumeLink": "./assets/Ali_Kareem_resume.pdf",
+    "linkedinLink": "https://www.linkedin.com/in/ahmed-salah-40a6322b3/",
+    "emailLink": "mailto:a7med.alah1416@gmail.com",
+    "githubLink": "https://github.com/A7medSala71",
+    "phone": "(+20) 1553138411",
+    "location": "Giza, Egypt",
+    "specializations": [
+        "Machine Learning & AI",
+        "Full-Stack Web Development",
+        "Embedded Systems & IoT",
+        "Data Analysis"
+    ]
+}
