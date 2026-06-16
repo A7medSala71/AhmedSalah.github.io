@@ -26,45 +26,85 @@
 
       <!-- List of Projects -->
       <div class="publications-list">
-        <h2>Web Applications</h2>
+        <h2>Computer Vision & Deep Learning</h2>
         <ul>
           <li class="publication-item">
-            <strong>CarVilla – Cars Exhibition Web App</strong><br>
-            <p><em>C#, HTML, CSS, JavaScript, SQL</em></p>
-            <p>Developed a full-stack car listing and booking platform with role-based admin and user dashboards. Features include vehicle management, booking system, and user authentication.</p>
-            <a href="https://github.com/A7medSala71/Carvilla-WebApplication" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
+            <strong>Traffic Sign Classification on MTSD</strong><br>
+            <p><em>Python, PyTorch, EfficientNet-B0, Docker</em></p>
+            <p>Benchmarked HOG+SVM, CNN, and EfficientNet-B0 on 326-class MTSD (67K crops); achieved 96.98% top-1 accuracy; deployed as Dockerized FastAPI with ONNX/CoreML exports.</p>
+            <a href="https://github.com/A7medSala71/Computer-Vision-Project" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
           </li>
           <li class="publication-item">
-            <strong>Online Store Web App</strong><br>
-            <p><em>PHP, HTML, CSS, JavaScript, SQL</em></p>
-            <p>Built a full-stack e-commerce application with cart management, product filtering, and role-based access control for admins and users.</p>
-            <a href="https://github.com/A7medSala71/full-ecommerce" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
-          </li>
-        </ul>
-
-        <h2>Machine Learning & AI Projects</h2>
-        <ul>
-          <li class="publication-item">
-            <strong>Heart Disease Prediction Model</strong><br>
-            <p><em>Python, Scikit-learn</em></p>
-            <p>Built and optimized an ML pipeline on the UCI Heart Disease dataset, achieving ~85% accuracy. Includes preprocessing, feature engineering, and model tuning.</p>
-            <a href="https://github.com/A7medSala71/Heart-Disease-Model" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
+            <strong>Face Verification – Siamese Networks on LFW</strong><br>
+            <p><em>Python, TensorFlow/Keras, MobileNetV2</em></p>
+            <p>Trained Siamese network with Contrastive and Triplet Loss on LFW; MobileNetV2 + Triplet achieved AUC 0.8612 and 77.8% accuracy.</p>
+            <a href="https://github.com/A7medSala71/LFW_Siamese_Network" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
           </li>
           <li class="publication-item">
-            <strong>Student Performance Prediction System</strong><br>
-            <p><em>Python, Scikit-learn, Streamlit</em></p>
-            <p>Built and deployed an end-to-end ML system for student performance prediction on a 20K-sample dataset. Features interactive Streamlit interface for real-time predictions.</p>
-            <a href="https://github.com/A7medSala71/Smart-Student-Performance-Prediction-Model" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
+            <strong>Marine Species Classification</strong><br>
+            <p><em>Python, TensorFlow/Keras, EfficientNetB0, FathomNet</em></p>
+            <p>Fine-tuned EfficientNetB0 on FathomNet imagery across 3 strategies; applied MSP-based OOD detection for unknown species identification.</p>
+            <a href="https://github.com/A7medSala71/marine_species" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
+          </li>
+          <li class="publication-item">
+            <strong>Sleep Stage Classification – TCN</strong><br>
+            <p><em>Python, PyTorch, Sleep-EDF</em></p>
+            <p>Designed causal dilated TCN for 5-class EEG sleep staging on PhysioNet Sleep-EDF; applied class-weighted loss to handle severe label imbalance.</p>
+            <a href="https://github.com/A7medSala71/sleep_stage_tcn" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
+          </li>
+          <li class="publication-item">
+            <strong>Convolutional Autoencoder on SVHN</strong><br>
+            <p><em>Python, PyTorch</em></p>
+            <p>Built unsupervised Conv-AE on SVHN; ablated latent dimensions (64 vs. 16) to analyze compression ratio vs. reconstruction fidelity trade-off.</p>
+            <a href="https://github.com/A7medSala71/svhn_autoencoder" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
           </li>
         </ul>
 
         <h2>Embedded Systems & IoT</h2>
         <ul>
           <li class="publication-item">
+            <strong>WiFi Robot Car – Firebase Cloud Control</strong><br>
+            <p><em>ESP8266, Firebase RTDB, JavaScript</em></p>
+            <p>Built 4WD ESP8266 robot with manual, gyroscope tilt, and autonomous obstacle-avoidance modes; deployed real-time control dashboard on Vercel.</p>
+            <a href="https://github.com/A7medSala71/Robot-Car" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
+          </li>
+          <li class="publication-item">
+            <strong>Autonomous ADAS RC Car</strong><br>
+            <p><em>PIC16F877A, Raspberry Pi, Firebase, OpenCV, C, Python</em></p>
+            <p>Developed custom PCB with 4-layer safety FSM on PIC16F877A; integrated OpenCV lane detection, drowsy-driver ML, and live Next.js dashboard over Firebase/UART.</p>
+            <a href="https://github.com/A7medSala71/Embedded_System" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
+          </li>
+          <li class="publication-item">
             <strong>Smart Blind Stick</strong><br>
-            <p><em>Arduino, Embedded Systems</em></p>
-            <p>Developed an assistive smart blind stick with obstacle detection using ultrasonic sensors and emergency GPS/GSM SMS alerts for safety.</p>
+            <p><em>Arduino, GPS/GSM, Embedded Systems</em></p>
+            <p>Developed assistive device with ultrasonic obstacle detection and emergency GPS/GSM SMS alerts for visually impaired users.</p>
             <a href="https://github.com/A7medSala71/Smart-Blind-Stick-GPS-GSM" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
+          </li>
+        </ul>
+
+        <h2>Web Applications</h2>
+        <ul>
+          <li class="publication-item">
+            <strong>CarVilla – Cars Exhibition Web App</strong><br>
+            <p><em>C#, ASP.NET, SQL Server</em></p>
+            <p>Full-stack car listing and booking platform with role-based admin/user dashboards and SQL Server backend.</p>
+            <a href="https://github.com/A7medSala71/Carvilla-WebApplication" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
+          </li>
+        </ul>
+
+        <h2>Machine Learning & Data Analysis</h2>
+        <ul>
+          <li class="publication-item">
+            <strong>Student Performance Prediction Model</strong><br>
+            <p><em>Python, Scikit-learn, Streamlit</em></p>
+            <p>Built end-to-end ML pipeline on 20K-sample dataset with Streamlit web interface for real-time student performance predictions.</p>
+            <a href="https://github.com/A7medSala71/Smart-Student-Performance-Prediction-Model" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
+          </li>
+          <li class="publication-item">
+            <strong>Heart Disease Prediction Model</strong><br>
+            <p><em>Python, Scikit-learn</em></p>
+            <p>Built and optimized an ML pipeline on the UCI Heart Disease dataset, achieving ~85% accuracy. Includes preprocessing, feature engineering, and model tuning.</p>
+            <a href="https://github.com/A7medSala71/Heart-Disease-Model" target="_blank" class="read-paper-link">🔗 View on GitHub</a>
           </li>
         </ul>
 
