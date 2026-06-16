@@ -1,7 +1,7 @@
 {
     "name": "Ahmed Salah",
     "title": "Computer Engineer | ML/AI Specialist | Full-Stack Developer",
-    "resumeLink": "./assets/Ali_Kareem_resume.pdf",
+    "resumeLink": "./assets/Ahmed_Salah_Resume.pdf",
     "linkedinLink": "https://www.linkedin.com/in/ahmed-salah-40a6322b3/",
     "emailLink": "mailto:a7med.alah1416@gmail.com",
     "githubLink": "https://github.com/A7medSala71",
@@ -9,8 +9,107 @@
     "location": "Giza, Egypt",
     "specializations": [
         "Machine Learning & AI",
-        "Full-Stack Web Development",
+        "Computer Vision",
+        "Deep Learning",
         "Embedded Systems & IoT",
+        "Full-Stack Web Development",
         "Data Analysis"
+    ],
+    "education": [
+        {
+            "institution": "Zewail City of Science and Technology",
+            "degree": "BSc. in Communications and Information Engineering",
+            "gpa": "3.5568",
+            "period": "Oct 2022 - Jul 2027",
+            "location": "Giza, Egypt",
+            "coursework": "Machine Learning, Computer Vision, Neural Networks & Deep Learning, Embedded Systems, DSP, Data Structures & Algorithms, Computer Networks, OS, Databases, Control Systems"
+        },
+        {
+            "institution": "STEM Bani Sweif",
+            "degree": "High School",
+            "period": "Sept 2019 - Jul 2022",
+            "location": "Bani Sweif, Egypt"
+        }
+    ],
+    "experience": [
+        {
+            "position": "Data Analysis Intern",
+            "company": "Digital Egypt Pioneers Initiative (DEPI), MCIT",
+            "period": "Dec 2024 - May 2025",
+            "description": "Performed EDA, dashboarding, and large-scale data analysis using Python, SQL, and Excel; collaborated with cross-functional teams."
+        },
+        {
+            "position": "Machine Learning Intern",
+            "company": "Genius Technology Center (GTC)",
+            "period": "Aug 2025 - Sep 2025",
+            "description": "Completed a 96.8% ML training program; built predictive models with Scikit-learn; earned Kaggle and NVIDIA certificates."
+        },
+        {
+            "position": "AI & Machine Learning Trainee",
+            "company": "Sprints × Microsoft",
+            "period": "Summer 2024",
+            "description": "Built an end-to-end Heart Disease Prediction system using Scikit-learn, achieving ~85% accuracy."
+        }
+    ],
+    "technicalSkills": {
+        "languages": "Python, C/C++, C#, SQL, JavaScript, HTML/CSS, MATLAB",
+        "mlAi": "Scikit-learn, TensorFlow/Keras, PyTorch, OpenCV, Albumentations, Pandas, NumPy, Streamlit",
+        "webDatabase": "ASP.NET, MySQL, SQL Server, Firebase RTDB, REST APIs, Next.js",
+        "embeddedIot": "PIC16F877A (MPLAB X), ESP8266, Raspberry Pi, Arduino, UART/I2C/SPI, GPS/GSM, L298N",
+        "tools": "Git, GitHub, Docker, ONNX, Jupyter, Colab, Kaggle, VS Code, EasyEDA, Cisco Packet Tracer"
+    },
+    "certifications": [
+        {
+            "name": "Machine Learning Track",
+            "issuer": "Genius Technology Center",
+            "date": "Aug-Sep 2025",
+            "id": "ML25F80A0B"
+        },
+        {
+            "name": "Getting Started with Deep Learning",
+            "issuer": "NVIDIA",
+            "date": "Sep 2025",
+            "id": "ZrI97QiSNGIpnLOm2DGBQ"
+        },
+        {
+            "name": "AI and ML Summer Camp",
+            "issuer": "Sprints × Microsoft",
+            "date": "Summer 2024",
+            "id": "SPR-96V8C6"
+        },
+        {
+            "name": "Foundations: Data, Data, Everywhere",
+            "issuer": "Google/Coursera",
+            "date": "Oct 2023",
+            "id": "ZYL9DY4U8LMW"
+        },
+        {
+            "name": "20th Undergraduate Research Forum",
+            "issuer": "Nile University",
+            "date": "Aug 2024",
+            "note": "Presented anomaly detection project"
+        }
+    ],
+    "extracurricularActivities": [
+        {
+            "role": "Member of Parliament (MP), CIE Department",
+            "organization": "Zewail City Student Parliament",
+            "period": "May 2026 - Present"
+        },
+        {
+            "role": "Representative of CIE Batch 22",
+            "organization": "Zewail City",
+            "period": "Feb 2025 - May 2026"
+        },
+        {
+            "role": "Participant",
+            "organization": "NASA Space Apps Competition",
+            "date": "Oct 2025"
+        },
+        {
+            "role": "FR Committee Member",
+            "organization": "IEEE Zewail City",
+            "period": "Nov 2023 - Mar 2024"
+        }
     ]
 }
